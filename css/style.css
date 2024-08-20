@@ -1,23 +1,4 @@
-/*--------------------- Copyright (c) 2022 -----------------------
-[Master Stylesheet]
 
-Project: Portfolio Responsive HTML Template
-Version: 1.0.6
-Assigned to: ThemeForest
--------------------------------------------------------------------
-
-[Table of contents]
-
-1. Body
-2. Typography css / a
-3. Main Wrapper / .prt_main_wrapper
-4. About css Start / .prt_about_wrapper
-5. Contact Page css Start / .prt_contact_wrapper
-6. Services css Start / .prt_services_wrapper
-7. Portfolio css Start / .prt_portfolio_wrapper
-8. Footer css Start / .prt_footer_wrapper
-9. Responsive css Start / .prt_counter_box
--------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
 body {
 	font-family: 'Montserrat', sans-serif;
