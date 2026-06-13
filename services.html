@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services — VijayKumar Yadav</title>
+    <meta name="description" content="Services offered by VijayKumar Yadav — frontend development, animations, UI to code and more.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></div>
+    <div class="offcanvas-overlay" onclick="toggleMobileMenu()"></div>
+    <aside class="offcanvas-menu">
+        <nav class="offcanvas-nav">
+            <a href="index.html" class="offcanvas-nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html" class="offcanvas-nav-item"><i class="fas fa-user"></i><span>About</span></a>
+            <a href="skills.html" class="offcanvas-nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="projects.html" class="offcanvas-nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+            <a href="experience.html" class="offcanvas-nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+            <a href="services.html" class="offcanvas-nav-item active"><i class="fas fa-gear"></i><span>Services</span></a>
+            <a href="contact.html" class="offcanvas-nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </aside>
+    <nav class="nav-container">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html" class="nav-item"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="skills.html" class="nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="projects.html" class="nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+        <a href="experience.html" class="nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+        <a href="services.html" class="nav-item active"><i class="fas fa-gear"></i><span>Services</span></a>
+        <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+    </nav>
+
+    <header class="page-header">
+        <span class="eyebrow" data-hero>How I can help</span>
+        <h1 data-hero>Services</h1>
+        <p data-hero>Everything you need to take a web idea from design to a fast, polished, animated product.</p>
+    </header>
+
+    <section class="section-pad" style="padding-top:1rem;">
+        <div class="container">
+            <div class="services-grid" data-stagger>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Responsive, pixel-perfect websites and web apps using React.js, JavaScript, HTML5 and CSS3.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>Animations &amp; 3D</h3>
+                    <p>Scroll-driven motion and 3D experiences with GSAP, Lenis and Locomotive Scroll.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-pen-ruler"></i></div>
+                    <h3>UI / UX to Code</h3>
+                    <p>Convert Figma designs into clean, accessible, production-ready interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-mobile-screen"></i></div>
+                    <h3>Responsive &amp; SEO</h3>
+                    <p>Mobile-first layouts, fast load times and SEO-friendly, semantic markup.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-cart-shopping"></i></div>
+                    <h3>E-commerce</h3>
+                    <p>Product catalogs, filters, carts and smooth checkout flows in React.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+                    <h3>Maintenance &amp; Deploy</h3>
+                    <p>Bug fixes, performance tuning, Git workflows and deployment on Vercel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <span class="eyebrow" style="display:block;text-align:center;">How I work</span>
+            <h2 class="section-title">My Process</h2>
+            <div class="process-grid" data-stagger>
+                <div class="process-step"><div class="step-num">1</div><h4>Discover</h4><p>Understand goals, scope and audience.</p></div>
+                <div class="process-step"><div class="step-num">2</div><h4>Design</h4><p>Wireframe &amp; refine the UI from Figma.</p></div>
+                <div class="process-step"><div class="step-num">3</div><h4>Develop</h4><p>Build clean, responsive, reusable code.</p></div>
+                <div class="process-step"><div class="step-num">4</div><h4>Animate</h4><p>Add smooth GSAP motion &amp; polish.</p></div>
+                <div class="process-step"><div class="step-num">5</div><h4>Launch</h4><p>Optimize, test and ship to production.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <h2 class="section-title">Kind Words</h2>
+            <div class="grid grid-2">
+                <div class="tcard gsap-up">
+                    <p class="quote">"Vijay delivered a clean, fast and beautifully animated frontend ahead of schedule. Great eye for detail."</p>
+                    <div class="who"><span class="av">A</span><div><b>A. Sharma</b><small>Project Lead</small></div></div>
+                </div>
+                <div class="tcard gsap-up">
+                    <p class="quote">"Turned our Figma design into a pixel-perfect, responsive site with smooth GSAP animations. Highly recommend."</p>
+                    <div class="who"><span class="av">R</span><div><b>R. Mehta</b><small>Product Manager</small></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-band">
+        <h2>Ready to <span class="grad">start</span>?</h2>
+        <p>Tell me about your project and let's make it happen.</p>
+        <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Let's talk</a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a><a href="experience.html">Experience</a>
+            <a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-copy">Copyright © 2025 <span class="grad">VijayKumar Yadav</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills — VijayKumar Yadav</title>
+    <meta name="description" content="Technical skills of VijayKumar Yadav — React.js, JavaScript, GSAP, Tailwind and more.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></div>
+    <div class="offcanvas-overlay" onclick="toggleMobileMenu()"></div>
+    <aside class="offcanvas-menu">
+        <nav class="offcanvas-nav">
+            <a href="index.html" class="offcanvas-nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html" class="offcanvas-nav-item"><i class="fas fa-user"></i><span>About</span></a>
+            <a href="skills.html" class="offcanvas-nav-item active"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="projects.html" class="offcanvas-nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+            <a href="experience.html" class="offcanvas-nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+            <a href="services.html" class="offcanvas-nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+            <a href="contact.html" class="offcanvas-nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </aside>
+    <nav class="nav-container">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html" class="nav-item"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="skills.html" class="nav-item active"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="projects.html" class="nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+        <a href="experience.html" class="nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+        <a href="services.html" class="nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+        <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+    </nav>
+
+    <header class="page-header">
+        <span class="eyebrow" data-hero>What I work with</span>
+        <h1 data-hero>My Skills</h1>
+        <p data-hero>A modern frontend toolkit — from clean markup to React apps and buttery-smooth GSAP animations.</p>
+    </header>
+
+    <!-- TECH GRID -->
+    <section class="section-pad" style="padding-top:1rem;">
+        <div class="container">
+            <div class="grid grid-4" data-stagger>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-html5"></i></div><div class="skill-name">HTML5</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-css3-alt"></i></div><div class="skill-name">CSS3</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-js-square"></i></div><div class="skill-name">JavaScript</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-react"></i></div><div class="skill-name">React.js</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-bootstrap"></i></div><div class="skill-name">Bootstrap</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fas fa-wind"></i></div><div class="skill-name">Tailwind</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fas fa-magic"></i></div><div class="skill-name">GSAP</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fab fa-github"></i></div><div class="skill-name">GitHub</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fas fa-paper-plane"></i></div><div class="skill-name">Postman</div></div>
+                <div class="skill-card"><div class="skill-icon"><i class="fas fa-rocket"></i></div><div class="skill-name">Locomotive</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFICIENCY BARS -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <h2 class="section-title">Proficiency</h2>
+            <div class="skillbars">
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>HTML5 &amp; CSS3</span><span>95%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:95%;"></div></div>
+                </div>
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>JavaScript (ES6+)</span><span>88%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:88%;"></div></div>
+                </div>
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>React.js</span><span>85%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:85%;"></div></div>
+                </div>
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>GSAP &amp; Animations</span><span>90%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:90%;"></div></div>
+                </div>
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>Tailwind &amp; Bootstrap</span><span>90%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:90%;"></div></div>
+                </div>
+                <div class="skillbar gsap-up">
+                    <div class="skillbar-top"><span>Figma to Code</span><span>87%</span></div>
+                    <div class="skillbar-track"><div class="skillbar-fill" style="--w:87%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-band">
+        <h2>Let's put these <span class="grad">skills</span> to work</h2>
+        <p>Need a fast, animated, responsive frontend? I'd love to help build it.</p>
+        <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Hire me</a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a><a href="experience.html">Experience</a>
+            <a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-copy">Copyright © 2025 <span class="grad">VijayKumar Yadav</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

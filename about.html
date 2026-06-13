@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — VijayKumar Yadav</title>
+    <meta name="description" content="About VijayKumar Yadav — Software Developer (Frontend) based in Mumbai, India.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></div>
+    <div class="offcanvas-overlay" onclick="toggleMobileMenu()"></div>
+    <aside class="offcanvas-menu">
+        <nav class="offcanvas-nav">
+            <a href="index.html" class="offcanvas-nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html" class="offcanvas-nav-item active"><i class="fas fa-user"></i><span>About</span></a>
+            <a href="skills.html" class="offcanvas-nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="projects.html" class="offcanvas-nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+            <a href="experience.html" class="offcanvas-nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+            <a href="services.html" class="offcanvas-nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+            <a href="contact.html" class="offcanvas-nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </aside>
+    <nav class="nav-container">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html" class="nav-item active"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="skills.html" class="nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="projects.html" class="nav-item"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+        <a href="experience.html" class="nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+        <a href="services.html" class="nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+        <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+    </nav>
+
+    <header class="page-header">
+        <span class="eyebrow" data-hero>Get to know me</span>
+        <h1 data-hero>About Me</h1>
+        <p data-hero>Software Developer (Frontend) based in Mumbai, India — building modern, scalable, high-performance web applications that don't just work, they impress.</p>
+    </header>
+
+    <!-- INTRO: photo + lead -->
+    <section class="section-pad" style="padding-top:1rem;">
+        <div class="container">
+            <div class="grid grid-2" style="align-items:center;">
+                <div class="floating-profile gsap-up">
+                    <div class="hero-photo" style="animation:none;">
+                        <div class="frame"><img src="images/vijay1.png" alt="VijayKumar Yadav"></div>
+                        <div class="chip c1"><i class="fas fa-location-dot"></i> Mumbai, India</div>
+                        <div class="chip c2"><i class="fab fa-react"></i> React.js</div>
+                    </div>
+                </div>
+                <div class="about-card glass-card gsap-up">
+                    <h3>Who Am I</h3>
+                    <p class="about-text">
+                        I'm a Software Developer (Frontend) passionate about building modern, scalable
+                        and high-performance web applications that don't just work — they impress.
+                        I craft responsive, component-driven interfaces with a sharp eye for clean UI,
+                        performance and seamless UX.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+                        <a href="contact.html" class="btn-secondary"><i class="fas fa-handshake"></i> Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIO highlights -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <h2 class="section-title">What I Bring</h2>
+            <div class="services-grid" data-stagger>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>My Core Stack</h3>
+                    <p>React.js, JavaScript, HTML5, CSS3, Tailwind CSS, Bootstrap 5 and Sass — responsive, component-driven interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-plug"></i></div>
+                    <h3>Full-Stack Collaboration</h3>
+                    <p>Working closely with backend developers to integrate REST APIs and build dynamic, real-world features.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>Interfaces That Come Alive</h3>
+                    <p>Smooth, engaging experiences with modern animation libraries like GSAP and Locomotive Scroll.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI-Augmented Development</h3>
+                    <p>Leveraging Claude, Gemini, Perplexity, GitHub Copilot and Cursor to accelerate delivery and keep quality high.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-pen-ruler"></i></div>
+                    <h3>Design to Production</h3>
+                    <p>From Figma mockups to production-ready apps — E-commerce platforms and complex web apps, cross-device.</p>
+                </div>
+                <div class="service-card">
+                    <div class="svc-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Always Learning</h3>
+                    <p>Constantly exploring new technologies, libraries and modern practices — because growth never stops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <div class="about-card glass-card gsap-up">
+                <h3>My Expertise</h3>
+                <div class="grid grid-2" style="gap:1rem;">
+                    <div class="expertise-item"><h4>Frontend Development</h4><p>React.js, JavaScript ES6+, HTML5, CSS3, Bootstrap, Tailwind, Sass</p></div>
+                    <div class="expertise-item"><h4>UI / UX Design</h4><p>Figma, Responsive Design, User Experience</p></div>
+                    <div class="expertise-item"><h4>Animations</h4><p>GSAP, Locomotive Scroll, Lenis, Sherry.js</p></div>
+                    <div class="expertise-item"><h4>Tools &amp; Workflow</h4><p>Bitbucket, GitHub, Namecheap, SSL Management, Vercel</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY PROCESS -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <span class="eyebrow" style="display:block;text-align:center;">How I work</span>
+            <h2 class="section-title">My Process</h2>
+            <div class="process-grid" data-stagger>
+                <div class="process-step"><div class="step-num">1</div><h4>Discover</h4><p>Understand the idea, goals and audience.</p></div>
+                <div class="process-step"><div class="step-num">2</div><h4>Design</h4><p>Wireframe &amp; refine the UI from Figma.</p></div>
+                <div class="process-step"><div class="step-num">3</div><h4>Develop</h4><p>Build clean, responsive, reusable code.</p></div>
+                <div class="process-step"><div class="step-num">4</div><h4>Animate</h4><p>Add smooth GSAP motion &amp; polish.</p></div>
+                <div class="process-step"><div class="step-num">5</div><h4>Launch</h4><p>Optimize, test and ship to production.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-band">
+        <h2>Want to <span class="grad">work together</span>?</h2>
+        <p>Open to collaborations, freelance projects and meaningful connections in the tech world.</p>
+        <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Get in touch</a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a><a href="experience.html">Experience</a>
+            <a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-copy">Copyright © 2025 <span class="grad">VijayKumar Yadav</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — VijayKumar Yadav</title>
+    <meta name="description" content="Projects by VijayKumar Yadav — React apps, animated websites and 3D web experiences.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+    <div class="grid-overlay"></div>
+
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></div>
+    <div class="offcanvas-overlay" onclick="toggleMobileMenu()"></div>
+    <aside class="offcanvas-menu">
+        <nav class="offcanvas-nav">
+            <a href="index.html" class="offcanvas-nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html" class="offcanvas-nav-item"><i class="fas fa-user"></i><span>About</span></a>
+            <a href="skills.html" class="offcanvas-nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="projects.html" class="offcanvas-nav-item active"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+            <a href="experience.html" class="offcanvas-nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+            <a href="services.html" class="offcanvas-nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+            <a href="contact.html" class="offcanvas-nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </aside>
+    <nav class="nav-container">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html" class="nav-item"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="skills.html" class="nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="projects.html" class="nav-item active"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+        <a href="experience.html" class="nav-item"><i class="fas fa-clock"></i><span>Experience</span></a>
+        <a href="services.html" class="nav-item"><i class="fas fa-gear"></i><span>Services</span></a>
+        <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+    </nav>
+
+    <header class="page-header">
+        <span class="eyebrow" data-hero>My work</span>
+        <h1 data-hero>Projects</h1>
+        <p data-hero>A selection of things I've built — from full-stack apps to landing pages and interactive 3D experiences.</p>
+    </header>
+
+    <section class="section-pad" style="padding-top:1rem;">
+        <div class="container">
+            <div class="work-grid" data-stagger>
+                <div class="project-card">
+                    <img src="images/Taskmanagement.png" alt="Task Management">
+                    <span class="card-tag">React · Node · SQL</span>
+                    <div class="card-overlay"><h3 class="card-title">Task Management System</h3>
+                        <p class="card-description">Auth, CRUD and real-time status tracking.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/Ecommerce.png" alt="E-commerce">
+                    <span class="card-tag">React · Swiper</span>
+                    <div class="card-overlay"><h3 class="card-title">E-commerce Platform</h3>
+                        <p class="card-description">Filters, carousels and full add-to-cart to checkout flow.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/DrAppointment.png" alt="Doctor Appointment">
+                    <span class="card-tag">Healthcare</span>
+                    <div class="card-overlay"><h3 class="card-title">Doctor Appointment System</h3>
+                        <p class="card-description">Appointments, patient records and doctor schedules.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/Restaurant.png" alt="Restaurant Website">
+                    <span class="card-tag">HTML · CSS</span>
+                    <div class="card-overlay"><h3 class="card-title">Restaurant Website</h3>
+                        <p class="card-description">Menu showcase and online reservations.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/SolarPage.png" alt="Tailwind Solar">
+                    <span class="card-tag">Tailwind CSS</span>
+                    <div class="card-overlay"><h3 class="card-title">Tailwind Solar</h3>
+                        <p class="card-description">Responsive solar-energy website, modern layout.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/Appsflyer.png" alt="Appsflyer Demo">
+                    <span class="card-tag">Carousel JS</span>
+                    <div class="card-overlay"><h3 class="card-title">Appsflyer Demo</h3>
+                        <p class="card-description">Sliders, hover effects and sticky UI elements.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/LandwindPage.png" alt="Landwind Page">
+                    <span class="card-tag">Bootstrap</span>
+                    <div class="card-overlay"><h3 class="card-title">Landwind Page</h3>
+                        <p class="card-description">Responsive landing page with HTML, CSS, Bootstrap.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/CasinoBingeDemo.png" alt="CasinoBinge Demo">
+                    <span class="card-tag">Bootstrap</span>
+                    <div class="card-overlay"><h3 class="card-title">CasinoBinge Demo</h3>
+                        <p class="card-description">Responsive landing page with HTML, CSS, Bootstrap.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/SurgeApp.png" alt="SurgeApp">
+                    <span class="card-tag">React</span>
+                    <div class="card-overlay"><h3 class="card-title">SurgeApp</h3>
+                        <p class="card-description">Reusable components and scalable design.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/preckens.png" alt="Preckens Platform">
+                    <span class="card-tag">JavaScript</span>
+                    <div class="card-overlay"><h3 class="card-title">Preckens Platform</h3>
+                        <p class="card-description">Responsive web experience, stunning interfaces.</p></div>
+                </div>
+                <div class="project-card">
+                    <img src="images/FlyTravel.png" alt="Fly Travel">
+                    <span class="card-tag">Travel · UI</span>
+                    <div class="card-overlay"><h3 class="card-title">Fly Travel</h3>
+                        <p class="card-description">Travel booking landing with rich, responsive sections.</p></div>
+                </div>
+                <a class="project-card" href="javascript:void(0)">
+                    <img src="images/KonkOut.png" alt="KonkOut 3D">
+                    <span class="card-tag">GSAP · 3D · Live</span>
+                    <div class="card-overlay"><h3 class="card-title">KonkOut 3D <i class="fas fa-arrow-up-right-from-square" style="font-size:.7em;"></i></h3>
+                        <p class="card-description">Interactive 3D website with GSAP motion effects.</p></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-band cta-dev">
+        <h2>Like what you <span class="grad">see</span>?</h2>
+        <p>There's more where that came from. Let's build your next project together.</p>
+        <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Start a project</a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a><a href="experience.html">Experience</a>
+            <a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <p class="footer-copy">Copyright © 2025 <span class="grad">VijayKumar Yadav</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
